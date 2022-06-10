@@ -4,17 +4,8 @@ import {
 import axios from 'axios';
 import { NetInfo, Alert } from 'react-native';
 
-
-let config = {};
-let mainError = undefined;
-let count = 1;
-
-
 class AxiosService {
     async getServiceData(url, parameter) {
-        config = {};
-        mainError = undefined;
-        count = 1;
         const connectionInfo = await NetInfo.getConnectionInfo();
         if (connectionInfo.type === 'none') {
             Alert('LOGIN_MODULE.PLEASE_CONNECT_TO_INTERNET')
@@ -33,9 +24,6 @@ class AxiosService {
     }
 
     async postServiceData(url, body) {
-        config = {};
-        mainError = undefined;
-        count = 1;
         const connectionInfo = await NetInfo.getConnectionInfo();
         if (connectionInfo.type === 'none') {
             Alert('LOGIN_MODULE.PLEASE_CONNECT_TO_INTERNET')
@@ -54,9 +42,6 @@ class AxiosService {
 
     // update
     async putServiceData(url, body) {
-        config = {};
-        mainError = undefined;
-        count = 1;
         const connectionInfo = await NetInfo.getConnectionInfo();
         if (connectionInfo.type === 'none') {
             Alert('LOGIN_MODULE.PLEASE_CONNECT_TO_INTERNET')
@@ -75,9 +60,6 @@ class AxiosService {
     //delete
 
     async deleteServiceData(url, body) {
-        config = {};
-        mainError = undefined;
-        count = 1;
         const connectionInfo = await NetInfo.getConnectionInfo();
         if (connectionInfo.type === 'none') {
             Alert('LOGIN_MODULE.PLEASE_CONNECT_TO_INTERNET')
