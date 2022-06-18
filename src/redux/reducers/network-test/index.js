@@ -1,30 +1,23 @@
-import {NETWROK_TEST, NETWROK_TEST_FAILURE, NETWROK_TEST_SUCCESS} from "../../constants/network-test";
+import {NETWORK_TEST} from "../../constants/network-test";
 
 
 const initialState = {
-    data: [],
-    isFetching: false,
+    data: [], isFetching: false,
 };
 
 export default function networkTestReducer(state = initialState, action) {
     switch (action.type) {
-        case NETWROK_TEST:
+        case NETWORK_TEST.START:
             return {
-                ...state,
-                data: [],
-                isFetching: true
+                ...state, isFetching: true
             };
-        case NETWROK_TEST_SUCCESS:
+        case NETWORK_TEST.SUCCESS:
             return {
-                ...state,
-                data: action.result,
-                isFetching: false
+                ...state, data: action.result, isFetching: false
             };
-        case NETWROK_TEST_FAILURE:
+        case NETWORK_TEST.FAILURE:
             return {
-                ...state,
-                data: [],
-                isFetching: false
+                ...state, isFetching: false
             };
         default:
             return state;

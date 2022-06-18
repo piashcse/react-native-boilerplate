@@ -1,8 +1,8 @@
-import {NETWROK_TEST} from "../../constants/network-test";
+import {NETWORK_TEST} from "../../constants/network-test";
 
 
 export function getTestData() {
     return {
-        type: NETWROK_TEST
+        type: NETWORK_TEST.START
     }
 }

@@ -1,19 +1,17 @@
-import {NETWROK_TEST, NETWROK_TEST_FAILURE, NETWROK_TEST_SUCCESS} from "../../constants/network-test";
-import { takeEvery, call, put } from 'redux-saga/effects';
-import ApiService from '../../../networks/ApiService';
+import {NETWORK_TEST} from "../../constants/network-test";
+import {takeEvery, call, put} from 'redux-saga/effects';
 import AxiosService from '../../../networks/AxiosService';
+import {ApiUrls} from "../../../networks/ApiUrls";
 
 
 function* callNetworkTestApi(action) {
     try {
-        const response = yield call(AxiosService.getServiceData, ApiService.TEST_API, {});
+        const response = yield call(AxiosService.getServiceData, ApiUrls.BASE_URL, {});
         const result = response.data;
-        yield put({ type: NETWROK_TEST_SUCCESS, result });
+        yield put({type: NETWORK_TEST.SUCCESS, result});
     } catch (error) {
-        yield put({ type: NETWROK_TEST_FAILURE });
+        yield put({type: NETWORK_TEST.FAILURE});
     }
 }
 
-export const netwrokTestSaga = [
-    takeEvery(NETWROK_TEST, callNetworkTestApi)
-];
+export const netwrokTestSaga = [takeEvery(NETWORK_TEST.START, callNetworkTestApi)];
