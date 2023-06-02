@@ -18,9 +18,9 @@ Redux architecture based react-native boilerplate <br>
 
 ## Built With 🛠
 - [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform..
+- [React-Navigation](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
 - [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
 - [Redux-Saga](https://redux-saga.js.org/) - An intuitive Redux side effect manager.
-- [React-Navigation](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 
 ## Requirements
