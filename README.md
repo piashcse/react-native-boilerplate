@@ -1,4 +1,5 @@
 # React-Native Boilerplate
+[![React Native](https://img.shields.io/badge/React%20Native-v0.68.2-green.svg)](https://facebook.github.io/react-native/)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
