@@ -1,5 +1,5 @@
 # React-Native Boilerplate
-[![React Native](https://img.shields.io/badge/React%20Native-v0.68.2-green.svg)](https://facebook.github.io/react-native/)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.71.10-green.svg)](https://facebook.github.io/react-native/)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -8,13 +8,13 @@
 Redux architecture based react-native boilerplate <br>
 
 ## Directory layout
-- [`app/screens`](src/screens): Application's screens
-- [`app/navigation`](src/navigations): React-Navigation setting 
-- [`app/assets`](src/assets): Assets (image, audio files) used by the application
-- [`app/redux/store`](src/redux/index.js): Redux store
-- [`app/redux/sagas`](src/redux/sagas): Redux sagas
-- [`app/redux/actions`](src/redux/actions): Redux actions
-- [`app/redux/reducers`](src/redux/reducers): Redux reducers
+- [`src/screens`](src/screens): Application's screens
+- [`src/navigation`](src/navigations): React-Navigation setting 
+- [`src/assets`](src/assets): Assets (image, audio files) used by the application
+- [`src/redux/store`](src/redux/index.js): Redux store
+- [`src/redux/sagas`](src/redux/sagas): Redux sagas
+- [`src/redux/actions`](src/redux/actions): Redux actions
+- [`src/redux/reducers`](src/redux/reducers): Redux reducers
 
 ## Built With 🛠
 - [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform..
