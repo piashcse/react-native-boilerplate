@@ -11,15 +11,18 @@ Redux architecture based react-native boilerplate <br>
 - [`src/screens`](src/screens): Application's screens
 - [`src/navigation`](src/navigations): React-Navigation setting 
 - [`src/assets`](src/assets): Assets (image, audio files) used by the application
+- [`src/redux/hooks`](src/redux/hooks): React-Native hooks
 - [`src/redux/store`](src/redux/index.js): Redux store
 - [`src/redux/sagas`](src/redux/sagas): Redux sagas
 - [`src/redux/actions`](src/redux/actions): Redux actions
 - [`src/redux/reducers`](src/redux/reducers): Redux reducers
+- [`src/redux/utils`](src/redux/utils): All the utility and helper function 
 
 ## Built With 🛠
 - [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform..
 - [React-Navigation](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
 - [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
+- [Redux-toolkit](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux development
 - [Redux-Saga](https://redux-saga.js.org/) - An intuitive Redux side effect manager.
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 
