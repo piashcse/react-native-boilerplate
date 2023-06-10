@@ -14,4 +14,4 @@ function* callNetworkTestApi(action) {
     }
 }
 
-export const netwrokTestSaga = [takeEvery(NETWORK_TEST.START, callNetworkTestApi)];
+export const networkTestSaga = [takeEvery(NETWORK_TEST.START, callNetworkTestApi)];
