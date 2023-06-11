@@ -11,12 +11,16 @@ import React from 'react';
 import configureAppStore from './src/redux';
 import {Provider} from 'react-redux';
 import Navigation from './src/navigations/AppNavigation';
+import {PersistGate} from 'redux-persist/integration/react'
 
-const store = configureAppStore();
+
+const {store, persistor} = configureAppStore();
 const App = () => {
     return (
         <Provider store={store}>
-            <Navigation/>
+            <PersistGate loading={null} persistor={persistor}>
+                <Navigation/>
+            </PersistGate>
         </Provider>
     );
 };

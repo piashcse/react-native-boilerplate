@@ -10,6 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@react-native-community/netinfo": "^9.3.10",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
     "@reduxjs/toolkit": "^1.9.5",
@@ -22,6 +24,7 @@
     "react-redux": "^8.0.7",
     "redux": "^4.2.1",
     "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
     "redux-saga": "^1.2.3"
   },
   "devDependencies": {
