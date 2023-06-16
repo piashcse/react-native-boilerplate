@@ -8,10 +8,13 @@
 Redux architecture based react-native boilerplate <br>
 
 ## Directory layout
-- [`src/screens`](src/screens): Application's screens
-- [`src/navigation`](src/navigations): React-Navigation setting 
+- [`src/appConstant`](src/appConstant): Application's constants
 - [`src/assets`](src/assets): Assets (image, audio files) used by the application
+- [`src/components`](src/components): All components used in ui
 - [`src/hooks`](src/hooks): React-Native hooks
+- [`src/navigation`](src/navigations): React-Navigation setting
+- [`src/networks`](src/networks): Api urls and Api services
+- [`src/screens`](src/screens): Application's screens
 - [`src/redux/store`](src/redux/index.js): Redux store
 - [`src/redux/sagas`](src/redux/sagas): Redux sagas
 - [`src/redux/actions`](src/redux/actions): Redux actions
