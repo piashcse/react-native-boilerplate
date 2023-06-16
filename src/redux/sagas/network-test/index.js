@@ -6,7 +6,7 @@ import {ApiUrls} from "../../../networks/ApiUrls";
 
 function* callNetworkTestApi(action) {
     try {
-        const response = yield call(AxiosService.getServiceData, ApiUrls.BASE_URL, {});
+        const response = yield call(AxiosService.getServiceData, ApiUrls.MOVIE_LIST, {});
         const result = response.data;
         yield put({type: NETWORK_TEST.SUCCESS, result});
     } catch (error) {
