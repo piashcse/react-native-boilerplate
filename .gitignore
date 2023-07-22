@@ -29,6 +29,7 @@ build/
 .gradle
 local.properties
 *.iml
+android/app/.cxx
 
 # node.js
 #
@@ -54,3 +55,6 @@ buck-out/
 
 # Bundle artifact
 *.jsbundle
+
+# CocoaPods
+/ios/Pods
