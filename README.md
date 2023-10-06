@@ -31,6 +31,10 @@ Redux architecture based react-native boilerplate <br>
 - [Redux-Saga](https://redux-saga.js.org/) - An intuitive Redux side effect manager.
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 - [Redux Persist](https://www.npmjs.com/package/redux-persist) - Redux Persist is a staple project for Redux developers, both on mobile and on the web.
+- [react-native-paper](https://github.com/callstack/react-native-paper) - Material Design for React Native (Android & iOS).
+- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)- Customizable Icons for React Native with support for image source and full styling.
+- [patch-package](https://github.com/ds300/patch-package) - Fix broken node modules instantly 
+
 
 ## Requirements
 
