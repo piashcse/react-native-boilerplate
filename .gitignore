@@ -20,7 +20,7 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
+**/.xcode.env.local
 
 # Android/IntelliJ
 #
@@ -57,4 +57,18 @@ buck-out/
 *.jsbundle
 
 # CocoaPods
-/ios/Pods
+# Ruby / CocoaPods
+**/Pods/
+/vendor/bundle/
+
+
+# testing
+/coverage
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
