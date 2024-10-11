@@ -19,11 +19,11 @@ const persistedReducer = persistReducer(persistConfig, combineReducers)
 const configureAppStore = () => {
     const store = configureStore({
         reducer: persistedReducer,
-        middleware: [...middleware, logger],
+        middleware: (getDefaultMiddleware) => getDefaultMiddleware({serializableCheck: false}).concat(middleware, logger),
         devTools: process.env.NODE_ENV === 'development'
     });
-    let persistor = persistStore(store)
     sagaMiddleware.run(rootSaga);
+    const persistor = persistStore(store)
     return {store, persistor};
 }
 
