@@ -7,19 +7,24 @@
 
 Redux architecture based react-native boilerplate <br>
 
-## Directory layout
-- [`src/appConstant`](src/appConstant): Application's constants
-- [`src/assets`](src/assets): Assets (image, audio files) used by the application
-- [`src/components`](src/components): All components used in ui
-- [`src/hooks`](src/hooks): React-Native hooks
-- [`src/navigation`](src/navigations): React-Navigation setting
-- [`src/networks`](src/networks): Api urls and Api services
-- [`src/screens`](src/screens): Application's screens
-- [`src/redux/store`](src/redux/index.js): Redux store
-- [`src/redux/sagas`](src/redux/sagas): Redux sagas
-- [`src/redux/actions`](src/redux/actions): Redux actions
-- [`src/redux/reducers`](src/redux/reducers): Redux reducers
-- [`src/utils`](src/utils): All the utility and helper function 
+## Project Directory
+
+```
+src/
+├── appConstant/           # Application constants (e.g., config values, theme constants)
+├── assets/                # Static assets like images, audio files
+├── components/            # Reusable UI components
+├── hooks/                 # Custom React Native hooks
+├── navigation/            # React Navigation setup and configurations
+├── networks/              # API URLs and API service definitions
+├── screens/               # Individual application screens
+├── redux/                 # Redux state management
+│   ├── store/             # Redux store configuration
+│   ├── sagas/             # Redux sagas for handling side effects
+│   ├── actions/           # Redux action creators
+│   └── reducers/          # Redux reducers
+└── utils/                 # Utility and helper functions
+```
 
 ## Built With 🛠
 - [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform..
