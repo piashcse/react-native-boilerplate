@@ -1,4 +1,5 @@
 # React-Native Boilerplate
+
 [![React Native](https://img.shields.io/badge/React%20Native-v0.76.1-green.svg)](https://facebook.github.io/react-native/)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
@@ -27,6 +28,7 @@ src/
 ```
 
 ## Built With 🛠
+
 - [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform..
 - [React-Navigation](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
 - [netinfo](https://github.com/react-native-netinfo/react-native-netinfo) - React Native Network Info API for Android, iOS, macOS, Windows & Web
@@ -38,8 +40,7 @@ src/
 - [Redux Persist](https://www.npmjs.com/package/redux-persist) - Redux Persist is a staple project for Redux developers, both on mobile and on the web.
 - [react-native-paper](https://github.com/callstack/react-native-paper) - Material Design for React Native (Android & iOS).
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)- Customizable Icons for React Native with support for image source and full styling.
-- [patch-package](https://github.com/ds300/patch-package) - Fix broken node modules instantly 
-
+- [patch-package](https://github.com/ds300/patch-package) - Fix broken node modules instantly
 
 ## Requirements
 
@@ -48,7 +49,7 @@ src/
 
 ## How to run
 
-- `git clone git@github.com:piashcse/react-native-boilerplate.git` 
+- `git clone git@github.com:piashcse/react-native-boilerplate.git`
 - `yarn install`
 
 Now, you can choose a command to run the project:
@@ -71,6 +72,7 @@ Now, you can choose a command to run the project:
 [![Blog](https://img.shields.io/badge/-Blog-0077B5?logo=readme&logoColor=white&style=for-the-badge)](https://piashcse.blogspot.com)
 
 # License
+
 ```
 Copyright 2023 piashcse (Mehedi Hassan Piash)
 
@@ -86,4 +88,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
