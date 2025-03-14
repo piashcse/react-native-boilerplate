@@ -1,89 +1,50 @@
-# React-Native Boilerplate
-[![React Native](https://img.shields.io/badge/React%20Native-v0.76.1-green.svg)](https://facebook.github.io/react-native/)
-![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
-![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
-[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
-<a href="https://github.com/piashcse"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=piashcse&color=C51162"/></a>
+# Welcome to your Expo app 👋
 
-Redux architecture based react-native boilerplate <br>
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Project Directory
+## Get started
 
-```
-src/
-├── appConstant/           # Application constants (e.g., config values, theme constants)
-├── assets/                # Static assets like images, audio files
-├── components/            # Reusable UI components
-├── hooks/                 # Custom React Native hooks
-├── navigation/            # React Navigation setup and configurations
-├── networks/              # API URLs and API service definitions
-├── screens/               # Individual application screens
-├── redux/                 # Redux state management
-│   ├── store/             # Redux store configuration
-│   ├── sagas/             # Redux sagas for handling side effects
-│   ├── actions/           # Redux action creators
-│   └── reducers/          # Redux reducers
-└── utils/                 # Utility and helper functions
-```
+1. Install dependencies
 
-## Built With 🛠
-- [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform..
-- [React-Navigation](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
-- [netinfo](https://github.com/react-native-netinfo/react-native-netinfo) - React Native Network Info API for Android, iOS, macOS, Windows & Web
-- [react-native-async-storage](https://github.com/react-native-async-storage/async-storage#readme) - An asynchronous, persistent, key-value storage system for React Native.
-- [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
-- [Redux-toolkit](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux development
-- [Redux-Saga](https://redux-saga.js.org/) - An intuitive Redux side effect manager.
-- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
-- [Redux Persist](https://www.npmjs.com/package/redux-persist) - Redux Persist is a staple project for Redux developers, both on mobile and on the web.
-- [react-native-paper](https://github.com/callstack/react-native-paper) - Material Design for React Native (Android & iOS).
-- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)- Customizable Icons for React Native with support for image source and full styling.
-- [patch-package](https://github.com/ds300/patch-package) - Fix broken node modules instantly 
+   ```bash
+   npm install
+   ```
 
+2. Start the app
 
-## Requirements
+   ```bash
+    npx expo start
+   ```
 
-- [Node.js](https://nodejs.org/) (latest)
-- [Yarn](https://yarnpkg.com/) (latest)
+In the output, you'll find options to open the app in a
 
-## How to run
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-- `git clone git@github.com:piashcse/react-native-boilerplate.git` 
-- `yarn install`
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-Now, you can choose a command to run the project:
+## Get a fresh project
 
-- `yarn ios` to run on iOS simulator
-- `yarn android` to run on Android simulator
+When you're ready, run:
 
-## 👨 Developed By
-
-<a href="https://twitter.com/piashcse" target="_blank">
-  <img src="https://avatars.githubusercontent.com/piashcse" width="80" align="left">
-</a>
-
-**Mehedi Hassan Piash**
-
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=x&logoColor=white&style=for-the-badge)](https://twitter.com/piashcse)
-[![Medium](https://img.shields.io/badge/-Medium-00AB6C?logo=medium&logoColor=white&style=for-the-badge)](https://medium.com/@piashcse)
-[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/piashcse/)
-[![Web](https://img.shields.io/badge/-Web-0073E6?logo=appveyor&logoColor=white&style=for-the-badge)](https://piashcse.github.io/)
-[![Blog](https://img.shields.io/badge/-Blog-0077B5?logo=readme&logoColor=white&style=for-the-badge)](https://piashcse.blogspot.com)
-
-# License
-```
-Copyright 2023 piashcse (Mehedi Hassan Piash)
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+```bash
+npm run reset-project
 ```
 
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
