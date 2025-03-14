@@ -1,50 +1,108 @@
-# Welcome to your Expo app 👋
+# React Native Movie 🚀
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![React Native](https://img.shields.io/badge/React%20Native-v0.78.0-green.svg)](https://facebook.github.io/react-native/)
+[![Redux](https://img.shields.io/badge/Redux-5.0.1-764ABC?logo=redux)](https://redux.js.org/)
+[![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-v2.3.0-00BFFF?logo=redux)](https://redux-toolkit.js.org/)
+[![Zustand](https://img.shields.io/badge/Zustand-v5.0.1-FF0099?logo=react)](https://github.com/pmndrs/zustand)
+![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
+![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
+[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+<a href="https://github.com/piashcse"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=piashcse&color=C51162"/></a>
 
-## Get started
+React Native Movie App 🎬 - A cross-platform react native app for exploring [The Movie DB](https://www.themoviedb.org) using RTK Query and Redux Toolkit for optimized state and API management.<br>
 
-1. Install dependencies
+<p align="center">
+  <img width="30%" height="50%" src="https://github.com/piashcse/react-native-movie/blob/main/screenshots/1730741954753_100.PNG" />
+  <img width="30%" height="50%" src="https://github.com/piashcse/react-native-movie/blob/main/screenshots/1730741946121_100.PNG" />
+  <img width="30%" height="50%" src="https://github.com/piashcse/react-native-movie/blob/main/screenshots/1730741936047_100.PNG" />
+  <img width="30%" height="50%" src="https://github.com/piashcse/react-native-movie/blob/main/screenshots/1730741920629_100.PNG" />
+  <img width="30%" height="50%" src="https://github.com/piashcse/react-native-movie/blob/main/screenshots/1730741927781_100.PNG" />
+  <img width="30%" height="50%" src="https://github.com/piashcse/react-native-movie/blob/main/screenshots/1730741964832_100.PNG" />
+</p>
 
-   ```bash
-   npm install
-   ```
+# Main Features
 
-2. Start the app
+- Movie
+   - Movie List
+   - Movie Search
+   - Movie Detail
+   - Recommended Movie
+   - Favorite Movie in local storage
+- TV Series
+   - TV Series List
+   - TV Series Search
+   - TV Series Detail
+   - Recommended TV Series
+   - Favorite TV Series in local storage
+- Artist Detail
+- Pagination with RTK Query
+- Bottom Navigation
+- Network connection state with SnackBar
 
-   ```bash
-    npx expo start
-   ```
+## Architecture
 
-In the output, you'll find options to open the app in a
+- RTK Query-Based Architecture (RTK Query - Hooks - reducer)
+- Redux
+<p float="left"> 
+  <a href='https://redux-toolkit.js.org/rtk-query/overview'>
+  <img src='https://redux-toolkit.js.org/img/redux-logo-landscape.png' height='50' alt='RTK Query Logo' aria-label='redux-toolkit.js.org/rtk-query' />
+</a>
+</p>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Built With 🛠
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.
+- [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) RTK Query is a powerful data fetching and caching tool. It is designed to simplify common cases for loading data in a web application, eliminating the need to hand-write data fetching & caching logic yourself.
+- [Axios](https://axios-http.com/) - Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.
+- [Redux-toolkit](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux development
+- [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
+- [React-Navigation 7](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
+- [Zustand](https://zustand-demo.pmnd.rs/) - A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy API based on hooks, isn't boilerplatey or opinionated.
+- [react-native-mmkv](https://github.com/mrousavy/react-native-mmkv) - ⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!
 
-## Get a fresh project
+## Requirements
 
-When you're ready, run:
+- [Node.js](https://nodejs.org/) (latest)
+- [Yarn](https://yarnpkg.com/) (latest)
 
-```bash
-npm run reset-project
+## How to run
+
+- `git clone git@github.com:piashcse/react-native-movie.git`
+- `yarn install`
+
+Now, you can choose a command to run the project:
+
+- `yarn ios` to run on iOS simulator
+- `yarn android` to run on Android simulator
+
+## 👨 Developed By
+
+<a href="https://twitter.com/piashcse" target="_blank">
+  <img src="https://avatars.githubusercontent.com/piashcse" width="80" align="left">
+</a>
+
+**Mehedi Hassan Piash**
+
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=x&logoColor=white&style=for-the-badge)](https://twitter.com/piashcse)
+[![Medium](https://img.shields.io/badge/-Medium-00AB6C?logo=medium&logoColor=white&style=for-the-badge)](https://medium.com/@piashcse)
+[![Linkedin](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/piashcse/)
+[![Web](https://img.shields.io/badge/-Web-0073E6?logo=appveyor&logoColor=white&style=for-the-badge)](https://piashcse.github.io/)
+[![Blog](https://img.shields.io/badge/-Blog-0077B5?logo=readme&logoColor=white&style=for-the-badge)](https://piashcse.blogspot.com)
+
+# License
+
 ```
+Copyright 2023 piashcse (Mehedi Hassan Piash)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-## Learn more
+    http://www.apache.org/licenses/LICENSE-2.0
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
