@@ -1,6 +1,6 @@
 # React-Native Boilerplate
 
-[![React Native](https://img.shields.io/badge/React%20Native-v0.76.1-green.svg)](https://facebook.github.io/react-native/)
+[![Expo](https://img.shields.io/badge/Expo-v52.0.38-blue.svg)](https://expo.dev/)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -29,13 +29,13 @@ src/
 
 ## Built With 🛠
 
-- [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform..
+- [Expo](https://github.com/expo/expo) - An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.
+- [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.
 - [React-Navigation](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
 - [netinfo](https://github.com/react-native-netinfo/react-native-netinfo) - React Native Network Info API for Android, iOS, macOS, Windows & Web
 - [react-native-async-storage](https://github.com/react-native-async-storage/async-storage#readme) - An asynchronous, persistent, key-value storage system for React Native.
 - [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
 - [Redux-toolkit](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux development
-- [Redux-Saga](https://redux-saga.js.org/) - An intuitive Redux side effect manager.
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
 - [Redux Persist](https://www.npmjs.com/package/redux-persist) - Redux Persist is a staple project for Redux developers, both on mobile and on the web.
 - [react-native-paper](https://github.com/callstack/react-native-paper) - Material Design for React Native (Android & iOS).
