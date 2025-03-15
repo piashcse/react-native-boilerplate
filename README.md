@@ -51,7 +51,8 @@ src/
 - [Expo-Router](https://docs.expo.dev/router/introduction/) - Expo Router is a file-based router for React Native and web applications. It allows you to manage navigation between screens in your app, allowing users to move seamlessly between different parts of your app's UI, using the same components on multiple platforms (Android, iOS, and web).
 - [Expo-Font](https://docs.expo.dev/versions/latest/sdk/font/) - Expo Font allows loading fonts from the web and using them in React Native components
 - [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
-- [RTK-Query](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux developmen- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js.
+- [RTK-Query](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux developmen
+- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js.
 - [Redux-toolkit](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux development.
 - [Netinfo](https://github.com/react-native-netinfo/react-native-netinfo) - React Native Network Info API for Android, iOS, macOS, Windows & Web.
 - [zustand](https://github.com/pmndrs/zustand) - A small, fast and scalable bearbones state-management solution using simplified flux principles. Has a comfy API based on hooks.
@@ -59,7 +60,8 @@ src/
 - [react-native-paper](https://github.com/callstack/react-native-paper) - Material Design for React Native (Android & iOS).
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)- Customizable Icons for React Native with support for image source and full styling.
 - [patch-package](https://github.com/ds300/patch-package) - Fix broken node modules instantly
-
+- [ESLint](https://eslint.org/) - ESLint statically analyzes your code to quickly find problems. It is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
+- [TypeScript](https://www.typescriptlang.org/) - TypeScript is JavaScript with syntax for types.
 ## Requirements
 
 - [Node.js](https://nodejs.org/) (latest)
