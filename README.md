@@ -25,8 +25,7 @@ src/
 │   └── I18nLocale/    # Internationalization (i18n) setup and utilities  
 ├── redux/             # Redux state management  
 │   ├── query/         # API queries using Redux Toolkit Query  
-│   ├── store/         # Redux store configuration and slices  
-│   └── reducers/      # Redux reducers (if applicable)  
+│   └── store/         # Redux store configuration and slices  
 ├── selector/          # Selectors for retrieving and computing state  
 ├── types/             # TypeScript type definitions and interfaces  
 ├── utils/             # Utility functions and helper methods  
