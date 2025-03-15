@@ -12,7 +12,7 @@ import configureAppStore from '@/src/redux/store/Store';
 import { i18nLocale } from '@/src/localization/i18nLocale';
 import { PaperProvider } from 'react-native-paper';
 import { dark, light } from '@/src/config/theme';
-
+import * as Font from '@expo-google-fonts/inter';
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -20,7 +20,10 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const store = configureAppStore();
   const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    Inter_400Regular: Font.Inter_400Regular,
+    Inter_600SemiBold: Font.Inter_600SemiBold,
+    Inter_500Medium: Font.Inter_500Medium,
+    Inter_700Bold: Font.Inter_700Bold,
   });
 
   useEffect(() => {
