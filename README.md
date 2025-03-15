@@ -14,7 +14,7 @@ A well-structured **Expo Boilerplate** built on **RTK Query** and **Redux archit
 
 - **RTK Query & Redux Toolkit** – Efficient state management and API handling  
 - **Zustand Support** – Lightweight alternative for global state management  
-- **React Navigation** – Pre-configured navigation setup  
+- **Expo Router** – File-based routing for a better navigation experience
 - **Localization (i18n)** – Multi-language support  
 - **Reusable Components** – Well-structured UI components  
 - **Custom Hooks** – Optimized hooks for state and effect management  
