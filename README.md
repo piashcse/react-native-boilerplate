@@ -1,4 +1,4 @@
-# React-Native Boilerplate
+# React Native [Expo] Boilerplate 🚀 
 
 [![Expo](https://img.shields.io/badge/Expo-52.0.38-blue.svg?logo=expo)](https://expo.dev/)
 [![React Native](https://img.shields.io/badge/React%20Native-v0.76.6-green.svg)](https://facebook.github.io/react-native/)
@@ -6,9 +6,21 @@
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 [![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-2.6.1-764ABC?logo=redux)](https://redux-toolkit.js.org/)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
-<a href="https://github.com/piashcse"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=piashcse&color=C51162"/></a>
+<a href="https://github.com/piashcse"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=piashcse&color=C51162"/></a> 
 
-Expo Boilerplate based on RTK Query and Redux architecture <br>
+A well-structured **Expo Boilerplate** built on **RTK Query** and **Redux architecture** to streamline React Native development. This boilerplate provides a scalable, maintainable, and production-ready setup for your mobile applications.  
+
+## ✨ Features  
+
+- **RTK Query & Redux Toolkit** – Efficient state management and API handling  
+- **Zustand Support** – Lightweight alternative for global state management  
+- **React Navigation** – Pre-configured navigation setup  
+- **Localization (i18n)** – Multi-language support  
+- **Reusable Components** – Well-structured UI components  
+- **Custom Hooks** – Optimized hooks for state and effect management  
+- **TypeScript Ready** – Strongly-typed project for reliability  
+- **Scalable Architecture** – Organized and maintainable folder structure  
+
 
 ## Project Directory
 
