@@ -14,19 +14,23 @@ Expo Boilerplate based on RTK Query and Redux architecture <br>
 
 ```
 src/
-├── appConstant/           # Application constants (e.g., config values, theme constants)
-├── assets/                # Static assets like images, audio files
-├── components/            # Reusable UI components
-├── hooks/                 # Custom React Native hooks
-├── navigation/            # React Navigation setup and configurations
-├── networks/              # API URLs and API service definitions
-├── screens/               # Individual application screens
-├── redux/                 # Redux state management
-│   ├── store/             # Redux store configuration
-│   ├── sagas/             # Redux sagas for handling side effects
-│   ├── actions/           # Redux action creators
-│   └── reducers/          # Redux reducers
-└── utils/                 # Utility and helper functions
+├── app/               # Application entry points and main screens  
+├── components/        # Reusable UI components  
+├── config/            # Configuration files and environment settings  
+├── constants/         # Static values and constants used across the app  
+├── hooks/             # Custom React hooks for state and effect management  
+├── localization/      # Language translation and localization files  
+│   ├── locale-json/   # JSON files for different locales  
+│   ├── AppString/     # Centralized string constants for the app  
+│   └── I18nLocale/    # Internationalization (i18n) setup and utilities  
+├── redux/             # Redux state management  
+│   ├── query/         # API queries using Redux Toolkit Query  
+│   ├── store/         # Redux store configuration and slices  
+│   └── reducers/      # Redux reducers (if applicable)  
+├── selector/          # Selectors for retrieving and computing state  
+├── types/             # TypeScript type definitions and interfaces  
+├── utils/             # Utility functions and helper methods  
+└── zustand/           # Zustand store for global state management  
 ```
 
 ## Built With 🛠
@@ -34,6 +38,7 @@ src/
 - [Expo](https://github.com/expo/expo) - An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.
 - [React-Native](https://reactnative.dev/) - React Native brings React's declarative UI framework to iOS and Android. With React Native, you use native UI controls and have full access to the native platform.
 - [Expo-Router](https://docs.expo.dev/router/introduction/) - Expo Router is a file-based router for React Native and web applications. It allows you to manage navigation between screens in your app, allowing users to move seamlessly between different parts of your app's UI, using the same components on multiple platforms (Android, iOS, and web).
+- [Expo-Font](https://docs.expo.dev/versions/latest/sdk/font/) - Expo Font allows loading fonts from the web and using them in React Native components
 - [Redux](https://redux.js.org/) - Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.
 - [RTK-Query](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux developmen- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js.
 - [Redux-toolkit](https://redux-toolkit.js.org/) - The official, opinionated, batteries-included toolset for efficient Redux development.
