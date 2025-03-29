@@ -1,8 +1,9 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
 import {
   ApiResponse,
+  BaseModel,
+  MovieItem,
   SingInSignUpResponse,
-  MovieItem, BaseModel,
 } from '@/src/types/ApiResponse';
 import axiosBaseQuery from '@/src/redux/query/BaseQuery';
 import { useBoilerPlateStore } from '@/src/zustand/BoilerPlateStore';
