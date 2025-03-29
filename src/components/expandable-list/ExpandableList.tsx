@@ -1,14 +1,9 @@
-import React, { useState, useRef } from 'react';
-import {
-  View,
-  TouchableOpacity,
-  Animated,
-  FlatList,
-} from 'react-native';
+import React, { useRef, useState } from 'react';
+import { Animated, FlatList, TouchableOpacity, View } from 'react-native';
 import Icon from '@expo/vector-icons/MaterialIcons';
 import { AppColors } from '@/src/constants/AppColors';
 import styles from './ExpandableComponent.style';
-import PrimaryTextView from "@/src/components/primary-textview/PrimaryTextView";
+import PrimaryTextView from '@/src/components/primary-textview/PrimaryTextView';
 
 // Define types for props
 interface ExpandableData {
