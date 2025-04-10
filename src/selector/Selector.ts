@@ -13,3 +13,4 @@ const selectGlobalLoading = createSelector(
     return isFetchingQueries || isFetchingMutations;
   }
 );
+export { selectGlobalLoading };
