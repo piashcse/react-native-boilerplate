@@ -14,6 +14,7 @@ import { PaperProvider } from 'react-native-paper';
 import { dark, light } from '@/src/config/theme';
 import * as Font from '@expo-google-fonts/inter';
 import NetworkMonitor from '@/src/components/network-monitor/NetworkMonitor';
+import CentralLoading from '@/src/components/base/loading/CentralLoading';
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -40,14 +41,15 @@ export default function RootLayout() {
   return (
     <Provider store={store}>
       <PaperProvider theme={colorScheme === 'dark' ? dark : light}>
+        <StatusBar style="auto" />
         <I18nextProvider i18n={i18nLocale}>
-          <Stack>
-            <Stack.Screen name="index" options={{ headerShown: false }} />
-            <Stack.Screen name="home" options={{ headerShown: false }} />
+          <Stack screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="index" />
+            <Stack.Screen name="home" />
             <Stack.Screen name="+not-found" />
           </Stack>
+          <CentralLoading />
         </I18nextProvider>
-        <StatusBar style="auto" />
         <NetworkMonitor />
       </PaperProvider>
     </Provider>
