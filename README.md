@@ -27,22 +27,25 @@ A well-structured **Expo Boilerplate** built on **RTK Query** and **Redux archit
 
 ```
 src/
-├── app/               # Application entry points and main screens  
-├── components/        # Reusable UI components  
-├── config/            # Configuration files and environment settings  
-├── constants/         # Static values and constants used across the app  
-├── hooks/             # Custom React hooks for state and effect management  
-├── localization/      # Language translation and localization files  
-│   ├── locale-json/   # JSON files for different locales  
-│   ├── AppString/     # Centralized string constants for the app  
-│   └── I18nLocale/    # Internationalization (i18n) setup and utilities  
-├── redux/             # Redux state management  
-│   ├── query/         # API queries using Redux Toolkit Query  
-│   └── store/         # Redux store configuration and slices  
-├── selector/          # Selectors for retrieving and computing state  
-├── types/             # TypeScript type definitions and interfaces  
-├── utils/             # Utility functions and helper methods  
-└── zustand/           # Zustand store for global state management  
+├── app/                      # Application entry points and main screens  
+├── components/               # Reusable UI components  
+├── config/                   # Configuration files and environment settings  
+├── constants/                # Static values and constants used across the app  
+├── hooks/                    # Custom React hooks for state and effect management  
+├── localization/             # Language translation and localization files  
+│   ├── locale-json/          # JSON files for different locales  
+│   ├── AppString/            # Centralized string constants for the app  
+│   └── I18nLocale/           # Internationalization (i18n) setup and utilities  
+├── service/                  # Services for API calls
+│   ├── axiosInstance/        # Axios base instance and interceptors  
+│   └── query/                # API call logic, previously from redux/query  
+├── Store/                    # Redux and middleware logic
+│   └── ApiErrorMiddleware/  # Middleware for handling API errors  
+│   └── store/                # Redux store config and slices (moved from redux/store)  
+├── selector/                 # Selectors for retrieving and computing state  
+├── types/                    # TypeScript type definitions and interfaces  
+├── utils/                    # Utility functions and helper methods  
+└── zustand/                  # Zustand store for global state management  
 ```
 
 ## Built With 🛠
