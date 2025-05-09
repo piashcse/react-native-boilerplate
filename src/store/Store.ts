@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { MovieApi } from '@/src/redux/query/RKTQuery';
+import { MovieApi } from '@/src/service/query/RKTQuery';
 import { setupListeners } from '@reduxjs/toolkit/query';
-import { rtkQueryErrorMiddleware } from '@/src/redux/store/RtkQueryErrorMiddleware';
+import { apiErrorMiddleware } from '@/src/store/ApiErrorMiddleware';
 
 const configureAppStore = () => {
   const store = configureStore({
@@ -9,10 +9,7 @@ const configureAppStore = () => {
       [MovieApi.reducerPath]: MovieApi.reducer, // Add the reducer here
     },
     middleware: (getDefaultMiddleware) =>
-      getDefaultMiddleware().concat([
-        MovieApi.middleware,
-        rtkQueryErrorMiddleware,
-      ]), // Add the middleware to manage API calls
+      getDefaultMiddleware().concat([MovieApi.middleware, apiErrorMiddleware]), // Add the middleware to manage API calls
     devTools: process.env.NODE_ENV === 'development',
   });
   setupListeners(store.dispatch);

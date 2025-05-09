@@ -9,7 +9,7 @@ interface ErrorResponse {
   };
 }
 
-export const rtkQueryErrorMiddleware: Middleware = () => (next) => (action) => {
+export const apiErrorMiddleware: Middleware = () => (next) => (action) => {
   if (isRejectedWithValue(action)) {
     const error = action.payload as ErrorResponse;
     const errorMessage =

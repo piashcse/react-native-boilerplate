@@ -1,6 +1,6 @@
 import { AxiosError, AxiosRequestConfig } from 'axios';
 import { BaseQueryFn } from '@reduxjs/toolkit/query/react';
-import axiosInstance from '@/src/redux/query/AxiosInstance';
+import axiosInstance from '@/src/service/AxiosInstance';
 import { AppConstants } from '@/src/constants/AppConstants';
 
 type AxiosBaseQueryArgs = {

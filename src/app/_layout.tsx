@@ -3,18 +3,18 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 import { useEffect } from 'react';
-import 'react-native-reanimated';
 import { Provider } from 'react-redux';
 import { I18nextProvider } from 'react-i18next';
 
 import { useColorScheme } from '@/src/hooks/useColorScheme';
-import configureAppStore from '@/src/redux/store/Store';
+import configureAppStore from '@/src/store/Store';
 import { i18nLocale } from '@/src/localization/i18nLocale';
 import { PaperProvider } from 'react-native-paper';
 import { dark, light } from '@/src/config/theme';
 import * as Font from '@expo-google-fonts/inter';
 import NetworkMonitor from '@/src/components/network-monitor/NetworkMonitor';
 import CentralLoading from '@/src/components/base/loading/CentralLoading';
+import AppSnackBar from '@/src/components/snack-bar/AppSnackBar';
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -50,6 +50,7 @@ export default function RootLayout() {
           </Stack>
           <NetworkMonitor />
           <CentralLoading />
+          <AppSnackBar />
         </I18nextProvider>
       </PaperProvider>
     </Provider>

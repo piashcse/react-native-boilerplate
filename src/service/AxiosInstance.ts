@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as AxiosLogger from 'axios-logger';
-import configureAppStore from '@/src/redux/store/Store';
-import { MovieApi } from '@/src/redux/query/RKTQuery';
+import configureAppStore from '@/src/store/Store';
+import { MovieApi } from '@/src/service/query/RKTQuery';
 import { router } from 'expo-router';
 
 const axiosInstance = axios.create();
