@@ -48,9 +48,9 @@ export default function RootLayout() {
             <Stack.Screen name="home" />
             <Stack.Screen name="+not-found" />
           </Stack>
+          <NetworkMonitor />
           <CentralLoading />
         </I18nextProvider>
-        <NetworkMonitor />
       </PaperProvider>
     </Provider>
   );

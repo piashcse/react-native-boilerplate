@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "RNBoilerPlate",
+    "name": "Rn Boilerplate",
     "slug": "RNBoilerPlate",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.piash.dcastalia.RNBoilerPlate"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.piash.dcastalia.RNBoilerPlate"
     },
     "web": {
       "bundler": "metro",
