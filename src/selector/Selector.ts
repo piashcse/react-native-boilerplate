@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { MovieApi } from '@/src/redux/query/RKTQuery';
+import { MovieApi } from '@/src/service/query/RKTQuery';
 
 const selectGlobalLoading = createSelector(
   (state: any) => state[MovieApi.reducerPath],

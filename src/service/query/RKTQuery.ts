@@ -5,7 +5,7 @@ import {
   MovieItem,
   SingInSignUpResponse,
 } from '@/src/types/ApiResponse';
-import axiosBaseQuery from '@/src/redux/query/BaseQuery';
+import axiosBaseQuery from '@/src/service/query/BaseQuery';
 import { useBoilerPlateStore } from '@/src/zustand/BoilerPlateStore';
 
 export const MovieApi = createApi({
