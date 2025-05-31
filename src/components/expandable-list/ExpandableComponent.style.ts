@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { AppColors } from '@/src/constants/AppColors';
+import { appColors } from '@/src/constants/appColors';
 
 const styles = StyleSheet.create({
   container: {
@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
   },
   headerExpanded: {
-    backgroundColor: AppColors.light.primaryColor, // Red background when expanded
+    backgroundColor: appColors.light.primaryColor, // Red background when expanded
   },
   content: {
     overflow: 'hidden',

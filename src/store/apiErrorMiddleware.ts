@@ -1,5 +1,5 @@
 import { isRejectedWithValue, Middleware } from '@reduxjs/toolkit';
-import { useApiErrorStore } from '@/src/zustand/ApiErrorStore';
+import { useApiErrorStore } from '@/src/zustand/apiErrorStore';
 
 interface ErrorResponse {
   status: number;

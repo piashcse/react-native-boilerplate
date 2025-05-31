@@ -1,6 +1,6 @@
 import React from 'react';
 import { Snackbar } from 'react-native-paper';
-import { useSnackbarStore } from '@/src/zustand/SnackBarStore';
+import { useSnackbarStore } from '@/src/zustand/snackBarStore';
 import styles from './AppSnackBar.style';
 
 const AppSnackBar = () => {

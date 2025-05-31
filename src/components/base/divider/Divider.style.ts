@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { AppColors } from '@/src/constants/AppColors';
+import { appColors } from '@/src/constants/appColors';
 
 const styles = StyleSheet.create({
   divider: {
     height: 1,
-    backgroundColor: AppColors.light.icon,
+    backgroundColor: appColors.light.icon,
     marginVertical: 10,
   },
 });

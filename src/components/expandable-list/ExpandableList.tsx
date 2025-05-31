@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Animated, FlatList, TouchableOpacity, View } from 'react-native';
 import Icon from '@expo/vector-icons/MaterialIcons';
-import { AppColors } from '@/src/constants/AppColors';
+import { appColors } from '@/src/constants/appColors';
 import styles from './ExpandableComponent.style';
 import PrimaryTextView from '@/src/components/primary-textview/PrimaryTextView';
 
@@ -83,14 +83,14 @@ const ExpandableComponent: React.FC<ExpandableProps> = ({ data }) => {
           <PrimaryTextView
             fontFamily={'semiBold'}
             fontSize={16}
-            color={isExpanded ? AppColors.white : AppColors.black} // White text when expanded
+            color={isExpanded ? appColors.white : appColors.black} // White text when expanded
           >
             {item.title}
           </PrimaryTextView>
           <Icon
             name={isExpanded ? 'keyboard-arrow-up' : 'keyboard-arrow-down'}
             size={24}
-            color={isExpanded ? AppColors.white : AppColors.black}
+            color={isExpanded ? appColors.white : appColors.black}
           />
         </TouchableOpacity>
         <Animated.View style={[styles.content, { height: heightInterpolate }]}>

@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import { I18nextProvider } from 'react-i18next';
 
 import { useColorScheme } from '@/src/hooks/useColorScheme';
-import configureAppStore from '@/src/store/Store';
+import configureAppStore from '@/src/store/store';
 import { i18nLocale } from '@/src/localization/i18nLocale';
 import { PaperProvider } from 'react-native-paper';
 import { dark, light } from '@/src/config/theme';

@@ -1,5 +1,5 @@
 import { ScrollView, Text } from 'react-native';
-import { useLazyGetNowPlayingMovieQuery } from '@/src/service/query/RKTQuery';
+import { useLazyGetNowPlayingMovieQuery } from '@/src/service/query/rtkQuery';
 import { useEffect } from 'react';
 import AppBar from '@/src/components/base/appbar/AppBar';
 

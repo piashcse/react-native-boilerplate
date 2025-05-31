@@ -1,6 +1,6 @@
-import { getDynamicPaddingOrMargin } from '@/src/config/DynamicDimension';
+import { getDynamicPaddingOrMargin } from '@/src/config/dynamicDimension';
 import { MD2Colors } from 'react-native-paper';
-import { AppColors } from '@/src/constants/AppColors';
+import { appColors } from '@/src/constants/appColors';
 
 export const defaultDimension = {
   margin: 16,
@@ -39,7 +39,7 @@ export const themeMode = {
 export const defaultBottomNavIcon = {
   borderRadius: 40,
   padding: 7,
-  backgroundColor: AppColors.light.primaryColor,
+  backgroundColor: appColors.light.primaryColor,
 };
 export const Fonts = {
   regular: 'Inter_400Regular',
