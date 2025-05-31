@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as AxiosLogger from 'axios-logger';
-import configureAppStore from '@/src/store/Store';
-import { MovieApi } from '@/src/service/query/RKTQuery';
+import configureAppStore from '@/src/store/store';
+import { movieApi } from '@/src/service/query/rtkQuery';
 import { router } from 'expo-router';
 
 const axiosInstance = axios.create();
@@ -46,7 +46,7 @@ axiosInstance.interceptors.response.use(
       try {
         // Trigger the RTK Query `postRefreshToken` mutation
         const { data, error } = await configureAppStore().dispatch(
-          MovieApi.endpoints.postRefreshToken.initiate()
+          movieApi.endpoints.postRefreshToken.initiate()
         );
         if (data) {
           // Update Authorization header with the new token

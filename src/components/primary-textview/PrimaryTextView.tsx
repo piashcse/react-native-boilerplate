@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import { Text, TextProps } from 'react-native-paper';
 import { TextStyle } from 'react-native';
 import styles from './PrimaryTextView.style';
-import { Fonts } from '@/src/config/AppConfig';
+import { Fonts } from '@/src/config/appConfig';
 
 interface AppTextProps extends TextProps {
   children: ReactNode;

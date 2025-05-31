@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { i18nLocale } from '@/src/localization/i18nLocale';
-import { APP_STRING } from '@/src/localization/AppString';
+import { APP_STRING } from '@/src/localization/appString';
 
 type AppStringKey = keyof typeof APP_STRING; // Keys of APP_STRING
 type Variables = Record<string, string | number>; // Placeholder variables

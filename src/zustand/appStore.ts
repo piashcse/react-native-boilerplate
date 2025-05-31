@@ -4,14 +4,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import { SingInSignUpResponse } from '@/src/types/ApiResponse';
 
-interface BoilerPlateStore {
+interface AppStore {
   user: SingInSignUpResponse | null;
   saveUser: (user: SingInSignUpResponse) => void;
   getUser: () => SingInSignUpResponse | null;
   clearUser: () => void;
 }
 
-export const useBoilerPlateStore = create<BoilerPlateStore>()(
+export const useAppStore = create<AppStore>()(
   persist(
     (set, get) => ({
       user: null,
@@ -31,7 +31,7 @@ export const useBoilerPlateStore = create<BoilerPlateStore>()(
       },
     }),
     {
-      name: '@BoilerPlateStore',
+      name: '@app-store',
       storage: createJSONStorage(() => AsyncStorage),
     }
   )

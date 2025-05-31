@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { AppColors } from '@/src/constants/AppColors';
-import { Fonts } from '@/src/config/AppConfig';
+import { appColors } from '@/src/constants/appColors';
+import { Fonts } from '@/src/config/appConfig';
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: AppColors.light.primaryColor,
+    backgroundColor: appColors.light.primaryColor,
     elevation: 4,
   },
   titleContainer: {
@@ -16,14 +16,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontFamily: Fonts.semiBold,
-    color: AppColors.white,
+    color: appColors.white,
   },
   rightIcons: {
     flexDirection: 'row',
   },
   childContainer: {
     padding: 10,
-    backgroundColor: AppColors.white,
+    backgroundColor: appColors.white,
   },
 });
 export default styles;

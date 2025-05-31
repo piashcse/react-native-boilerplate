@@ -5,10 +5,10 @@ import {
   MovieItem,
   SingInSignUpResponse,
 } from '@/src/types/ApiResponse';
-import axiosBaseQuery from '@/src/service/query/BaseQuery';
-import { useBoilerPlateStore } from '@/src/zustand/BoilerPlateStore';
+import axiosBaseQuery from '@/src/service/query/baseQuery';
+import { useAppStore } from '@/src/zustand/appStore';
 
-export const MovieApi = createApi({
+export const movieApi = createApi({
   reducerPath: 'home',
   baseQuery: axiosBaseQuery(),
   endpoints: (builder) => ({
@@ -17,7 +17,7 @@ export const MovieApi = createApi({
         url: 'auth/refresh',
         method: 'POST',
         headers: {
-          Authorization: `Bearer ${useBoilerPlateStore.getState()?.user?.refreshToken}`,
+          Authorization: `Bearer ${useAppStore.getState()?.user?.refreshToken}`,
           'Content-Type': 'application/json',
         },
       }),
@@ -34,4 +34,4 @@ export const MovieApi = createApi({
   }),
 });
 
-export const { useLazyGetNowPlayingMovieQuery } = MovieApi;
+export const { useLazyGetNowPlayingMovieQuery } = movieApi;
