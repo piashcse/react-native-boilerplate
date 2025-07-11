@@ -1,7 +1,7 @@
 # Expo React Native Boilerplate 🚀 
 
-[![Expo](https://img.shields.io/badge/Expo-53.0.09-blue.svg?logo=expo)](https://expo.dev/)
-[![React Native](https://img.shields.io/badge/React%20Native-v0.79.2-green.svg)](https://facebook.github.io/react-native/)
+[![Expo](https://img.shields.io/badge/Expo-53.0.19-blue.svg?logo=expo)](https://expo.dev/)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.79.5-green.svg)](https://facebook.github.io/react-native/)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 [![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-2.6.0-764ABC?logo=redux)](https://redux-toolkit.js.org/)
