@@ -1,7 +1,7 @@
 # Expo React Native Boilerplate 🚀 
 
-[![Expo](https://img.shields.io/badge/Expo-54.0.1-blue.svg?logo=expo)](https://expo.dev/)
-[![React Native](https://img.shields.io/badge/React%20Native-v0.81.4-green.svg)](https://facebook.github.io/react-native/)
+[![Expo](https://img.shields.io/badge/Expo-53.0.20-blue.svg?logo=expo)](https://expo.dev/)
+[![React Native](https://img.shields.io/badge/React%20Native-v0.79.5-green.svg)](https://facebook.github.io/react-native/)
 ![badge-Android](https://img.shields.io/badge/Platform-Android-brightgreen)
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 [![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-2.6.0-764ABC?logo=redux)](https://redux-toolkit.js.org/)
@@ -37,7 +37,7 @@ src
 │   ├── dynamicDimension.ts
 │   └── theme.ts
 ├── constants              # App constants and color definitions
-│   ├── APP_CONSTANTS.ts
+│   ├── appConstants.ts
 │   └── appColors.ts
 ├── hooks                  # Custom React hooks
 │   ├── useColorScheme.ts
