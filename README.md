@@ -1,4 +1,4 @@
-# Expo React Native Boilerplate 🚀 
+# Expo React Native Boilerplate 🚀
 
 [![Expo](https://img.shields.io/badge/Expo-54.0.1-blue.svg?logo=expo)](https://expo.dev/)
 [![React Native](https://img.shields.io/badge/React%20Native-v0.81.4-green.svg)](https://facebook.github.io/react-native/)
@@ -6,46 +6,64 @@
 ![badge-iOS](https://img.shields.io/badge/Platform-iOS-lightgray)
 [![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-2.6.0-764ABC?logo=redux)](https://redux-toolkit.js.org/)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
-<a href="https://github.com/piashcse"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=piashcse&color=C51162"/></a> 
+<a href="https://github.com/piashcse"><img alt="License" src="https://img.shields.io/static/v1?label=GitHub&message=piashcse&color=C51162"/></a>
 
-A well-structured **Expo Boilerplate** built on **RTK Query** and **Redux architecture** to streamline React Native development. This boilerplate provides a scalable, maintainable, and production-ready setup for your mobile applications.  
+A well-structured **Expo Boilerplate** built on **RTK Query** and **Redux architecture** to streamline React Native development. This boilerplate provides a scalable, maintainable, and production-ready setup for your mobile applications.
 
-## ✨ Features  
+## ✨ Features
 
-- **RTK Query & Redux Toolkit** – Efficient state management and API handling  
-- **Zustand Support** – Lightweight alternative for global state management  
+- **RTK Query & Redux Toolkit** – Efficient state management and API handling
+- **Zustand Support** – Lightweight alternative for global state management
 - **Expo Router** – File-based routing for a better navigation experience
 - **Localization (i18n)** – Multi-language support
-- **Centralized Loading & Error Handling** – Consistent error and loading state management across the app  
-- **Reusable Components** – Well-structured UI components  
-- **Custom Hooks** – Optimized hooks for state and effect management 
+- **Centralized Loading & Error Handling** – Consistent error and loading state management across the app
+- **Reusable Components** – Well-structured UI components
+- **Custom Hooks** – Optimized hooks for state and effect management
 - **Scalable Architecture** – Organized and maintainable folder structure
-- **TypeScript Ready** – Strongly-typed project for reliability 
+- **TypeScript Ready** – Strongly-typed project for reliability
 
 
 ## Project Directory
 
 ```
-src/
-├── app/                      # Application entry points and main screens  
-├── components/               # Reusable UI components  
-├── config/                   # Configuration files and environment settings  
-├── constants/                # Static values and constants used across the app  
-├── hooks/                    # Custom React hooks for state and effect management  
-├── localization/             # Language translation and localization files  
-│   ├── locale-json/          # JSON files for different locales  
-│   ├── AppString/            # Centralized string constants for the app  
-│   └── I18nLocale/           # Internationalization (i18n) setup and utilities  
-├── service/                  # Services for API calls
-│   ├── axiosInstance/        # Axios base instance and interceptors  
-│   └── query/                # API call logic, previously from redux/query  
-├── Store/                    # Redux and middleware logic
-│   └── ApiErrorMiddleware/  # Middleware for handling API errors  
-│   └── store/                # Redux store config and slices (moved from redux/store)  
-├── selector/                 # Selectors for retrieving and computing state  
-├── types/                    # TypeScript type definitions and interfaces  
-├── utils/                    # Utility functions and helper methods  
-└── zustand/                  # Zustand store for global state management  
+src
+├── app                    # Entry point or global app setup
+├── assets                 # Fonts, images, videos, etc.
+│   ├── fonts
+│   └── images
+├── components             # Reusable UI components
+├── config                 # App-wide configurations
+│   ├── appConfig.ts
+│   ├── dynamicDimension.ts
+│   └── theme.ts
+├── constants              # App constants and color definitions
+│   ├── appConstants.ts
+│   └── appColors.ts
+├── hooks                  # Custom React hooks
+│   ├── useColorScheme.ts
+│   ├── useColorScheme.web.ts
+│   ├── useLocalization.ts
+│   └── useThemeColor.ts
+├── localization           # i18n and translation logic
+├── selector               # Redux selectors or custom selectors
+│   └── selector.ts
+├── service                # API services
+│   ├── axiosInstance.ts
+│   └── query
+│       ├── baseQuery.ts
+│       └── rtkQuery.ts
+├── store                  # Redux or RTK store setup and middlewares
+│   ├── apiErrorMiddleware.ts
+│   └── store.ts
+├── types                  # TypeScript types/interfaces
+│   ├── ApiRequest.ts
+│   └── ApiResponse.ts
+├── utils                  # Utility/helper functions
+│   └── common.ts
+├── zustand                # Zustand stores (state management)
+│   ├── apiErrorStore.ts
+│   ├── appStore.ts
+│   └── snackBarStore.ts
 ```
 
 ## Built With 🛠
