@@ -1,4 +1,4 @@
-package com.piash.dcastalia.RNBoilerPlate
+package com.piashcse.RNBoilerPlate
 
 import android.app.Application
 import android.content.res.Configuration

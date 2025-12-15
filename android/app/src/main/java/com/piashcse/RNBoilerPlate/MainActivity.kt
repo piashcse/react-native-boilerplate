@@ -1,4 +1,4 @@
-package com.piash.dcastalia.RNBoilerPlate
+package com.piashcse.RNBoilerPlate
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

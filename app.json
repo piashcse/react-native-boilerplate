@@ -10,14 +10,17 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.piash.dcastalia.RNBoilerPlate"
+      "bundleIdentifier": "com.piashcse.RNBoilerPlate",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.piash.dcastalia.RNBoilerPlate"
+      "package": "com.piashcse.RNBoilerPlate"
     },
     "web": {
       "bundler": "metro",
